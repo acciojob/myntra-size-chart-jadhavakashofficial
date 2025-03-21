@@ -1,24 +1,52 @@
+/* General Styles */
 body {
-  font-family: Arial, sans-serif;
-  margin: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 20px;
 }
 
-h1 {
-  text-align: center;
+/* Table Container */
+.size-chart-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
 }
 
-table {
-  border-collapse: collapse;
-  margin: 0 auto;
-  width: 60%;
+/* Table Styling */
+.size-chart {
+    border-collapse: collapse;
+    width: 60%;
+    text-align: center;
 }
 
-thead {
-  background-color: #ddd;
+/* Header Row */
+.size-chart thead {
+    background-color: #8B0000; /* Dark Red */
+    color: white;
 }
 
-th, td {
-  border: 1px solid #000;
-  padding: 10px;
-  text-align: center;
+.size-chart th {
+    padding: 10px;
+    border: 1px solid black;
+}
+
+/* Data Rows */
+.size-chart tbody td {
+    padding: 8px;
+    border: 1px solid black;
+}
+
+/* Row Coloring */
+.waist {
+    background-color: #c86d6d; /* Light Red */
+}
+
+.chest {
+    background-color: #d9c3c3; /* Light Pinkish */
+}
+
+.sleeve {
+    background-color: #d3d3d3; /* Light Gray */
 }
